@@ -47,14 +47,15 @@
             this.listBoxDersler = new System.Windows.Forms.ListBox();
             this.cbxOgrenciTurleri = new System.Windows.Forms.ComboBox();
             this.groupBoxOgrenciEkle = new System.Windows.Forms.GroupBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.labelsoyadi = new System.Windows.Forms.Label();
+            this.labelno = new System.Windows.Forms.Label();
+            this.labeladi = new System.Windows.Forms.Label();
+            this.textBoxno = new System.Windows.Forms.TextBox();
+            this.textBoxsoyadi = new System.Windows.Forms.TextBox();
+            this.textBoxadi = new System.Windows.Forms.TextBox();
+            this.btnOgrenciEkle = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.listBoxOgrenciler = new System.Windows.Forms.ListBox();
             this.groupBoxFakulte.SuspendLayout();
             this.groupBoxBolumEkle.SuspendLayout();
             this.groupBoxDersEkle.SuspendLayout();
@@ -237,78 +238,79 @@
             // 
             // groupBoxOgrenciEkle
             // 
-            this.groupBoxOgrenciEkle.Controls.Add(this.label9);
-            this.groupBoxOgrenciEkle.Controls.Add(this.label8);
-            this.groupBoxOgrenciEkle.Controls.Add(this.label7);
-            this.groupBoxOgrenciEkle.Controls.Add(this.textBox3);
-            this.groupBoxOgrenciEkle.Controls.Add(this.textBox2);
-            this.groupBoxOgrenciEkle.Controls.Add(this.textBox1);
-            this.groupBoxOgrenciEkle.Controls.Add(this.button1);
+            this.groupBoxOgrenciEkle.Controls.Add(this.labelsoyadi);
+            this.groupBoxOgrenciEkle.Controls.Add(this.labelno);
+            this.groupBoxOgrenciEkle.Controls.Add(this.labeladi);
+            this.groupBoxOgrenciEkle.Controls.Add(this.textBoxno);
+            this.groupBoxOgrenciEkle.Controls.Add(this.textBoxsoyadi);
+            this.groupBoxOgrenciEkle.Controls.Add(this.textBoxadi);
+            this.groupBoxOgrenciEkle.Controls.Add(this.btnOgrenciEkle);
             this.groupBoxOgrenciEkle.Controls.Add(this.cbxOgrenciTurleri);
             this.groupBoxOgrenciEkle.Controls.Add(this.label6);
-            this.groupBoxOgrenciEkle.Location = new System.Drawing.Point(258, 216);
+            this.groupBoxOgrenciEkle.Location = new System.Drawing.Point(262, 206);
             this.groupBoxOgrenciEkle.Name = "groupBoxOgrenciEkle";
             this.groupBoxOgrenciEkle.Size = new System.Drawing.Size(241, 245);
             this.groupBoxOgrenciEkle.TabIndex = 9;
             this.groupBoxOgrenciEkle.TabStop = false;
             this.groupBoxOgrenciEkle.Text = "Ogrenci Ekle";
             // 
-            // label9
+            // labelsoyadi
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(6, 133);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(57, 20);
-            this.label9.TabIndex = 14;
-            this.label9.Text = "Soyadi";
+            this.labelsoyadi.AutoSize = true;
+            this.labelsoyadi.Location = new System.Drawing.Point(6, 133);
+            this.labelsoyadi.Name = "labelsoyadi";
+            this.labelsoyadi.Size = new System.Drawing.Size(57, 20);
+            this.labelsoyadi.TabIndex = 14;
+            this.labelsoyadi.Text = "Soyadi";
             // 
-            // label8
+            // labelno
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(9, 165);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(29, 20);
-            this.label8.TabIndex = 13;
-            this.label8.Text = "No";
+            this.labelno.AutoSize = true;
+            this.labelno.Location = new System.Drawing.Point(9, 165);
+            this.labelno.Name = "labelno";
+            this.labelno.Size = new System.Drawing.Size(29, 20);
+            this.labelno.TabIndex = 13;
+            this.labelno.Text = "No";
             // 
-            // label7
+            // labeladi
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(9, 101);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(32, 20);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "Adi";
+            this.labeladi.AutoSize = true;
+            this.labeladi.Location = new System.Drawing.Point(9, 101);
+            this.labeladi.Name = "labeladi";
+            this.labeladi.Size = new System.Drawing.Size(32, 20);
+            this.labeladi.TabIndex = 12;
+            this.labeladi.Text = "Adi";
             // 
-            // textBox3
+            // textBoxno
             // 
-            this.textBox3.Location = new System.Drawing.Point(82, 165);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(147, 26);
-            this.textBox3.TabIndex = 11;
+            this.textBoxno.Location = new System.Drawing.Point(82, 165);
+            this.textBoxno.Name = "textBoxno";
+            this.textBoxno.Size = new System.Drawing.Size(147, 26);
+            this.textBoxno.TabIndex = 11;
             // 
-            // textBox2
+            // textBoxsoyadi
             // 
-            this.textBox2.Location = new System.Drawing.Point(82, 133);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(147, 26);
-            this.textBox2.TabIndex = 10;
+            this.textBoxsoyadi.Location = new System.Drawing.Point(82, 133);
+            this.textBoxsoyadi.Name = "textBoxsoyadi";
+            this.textBoxsoyadi.Size = new System.Drawing.Size(147, 26);
+            this.textBoxsoyadi.TabIndex = 10;
             // 
-            // textBox1
+            // textBoxadi
             // 
-            this.textBox1.Location = new System.Drawing.Point(82, 101);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(147, 26);
-            this.textBox1.TabIndex = 9;
+            this.textBoxadi.Location = new System.Drawing.Point(82, 101);
+            this.textBoxadi.Name = "textBoxadi";
+            this.textBoxadi.Size = new System.Drawing.Size(147, 26);
+            this.textBoxadi.TabIndex = 9;
             // 
-            // button1
+            // btnOgrenciEkle
             // 
-            this.button1.Location = new System.Drawing.Point(156, 206);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(85, 30);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Kaydet";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnOgrenciEkle.Location = new System.Drawing.Point(156, 206);
+            this.btnOgrenciEkle.Name = "btnOgrenciEkle";
+            this.btnOgrenciEkle.Size = new System.Drawing.Size(85, 30);
+            this.btnOgrenciEkle.TabIndex = 2;
+            this.btnOgrenciEkle.Text = "Kaydet";
+            this.btnOgrenciEkle.UseVisualStyleBackColor = true;
+            this.btnOgrenciEkle.Click += new System.EventHandler(this.btnOgrenciEkle_Click);
             // 
             // label6
             // 
@@ -319,11 +321,21 @@
             this.label6.TabIndex = 1;
             this.label6.Text = "Ogrenci Turleri";
             // 
+            // listBoxOgrenciler
+            // 
+            this.listBoxOgrenciler.FormattingEnabled = true;
+            this.listBoxOgrenciler.ItemHeight = 20;
+            this.listBoxOgrenciler.Location = new System.Drawing.Point(717, 206);
+            this.listBoxOgrenciler.Name = "listBoxOgrenciler";
+            this.listBoxOgrenciler.Size = new System.Drawing.Size(165, 164);
+            this.listBoxOgrenciler.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(918, 537);
+            this.ClientSize = new System.Drawing.Size(918, 558);
+            this.Controls.Add(this.listBoxOgrenciler);
             this.Controls.Add(this.groupBoxOgrenciEkle);
             this.Controls.Add(this.listBoxDersler);
             this.Controls.Add(this.groupBoxDersEkle);
@@ -371,14 +383,15 @@
         private System.Windows.Forms.ListBox listBoxDersler;
         private System.Windows.Forms.ComboBox cbxOgrenciTurleri;
         private System.Windows.Forms.GroupBox groupBoxOgrenciEkle;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label labelsoyadi;
+        private System.Windows.Forms.Label labelno;
+        private System.Windows.Forms.Label labeladi;
+        private System.Windows.Forms.TextBox textBoxno;
+        private System.Windows.Forms.TextBox textBoxsoyadi;
+        private System.Windows.Forms.TextBox textBoxadi;
+        private System.Windows.Forms.Button btnOgrenciEkle;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ListBox listBoxOgrenciler;
     }
 }
 

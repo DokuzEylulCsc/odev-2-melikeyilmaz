@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -88,17 +89,21 @@ namespace MelikeYilmazOdev2.Models
         }
 
 
-        public void Ogrenci_Sil(string ad, string soyad, string bolum, int id)
+        public void Ogrenci_Sil( int ogrenci_ıd)//Öğrenci Silme metodu
         {
+            try
+            {
+                Student ogr = new Student(ogrenci_ıd);
+                Students.Remove(ogr);
+            }
+            catch (Exception) //Hata yakalama.
+            {
+                MessageBox.Show("Sileceğiniz öğrenci yok...");
+            }
 
+    }
 
-
-
-
-
-        }
-
-        public void Ogretim_Elemani_Ekle(string ad,string soyad,int id)
+        public void Ogretim_Elemani_Ekle(string ad,string soyad,int id)//Öğretim elemanı ekleme metodu
         {
             try
             {
@@ -128,6 +133,16 @@ namespace MelikeYilmazOdev2.Models
             {
                 throw new Exception("Ogretim Elemani Bulunmamaktadir!");
             }
+        }
+
+        public void Yazdır() //Yazdırma metodumuz.
+        {
+            StreamWriter d = new StreamWriter("Ogretim elemanları.txt"); //.txt uzantılı bir dosyaya yazdırma.
+            foreach (Instructor s in Instructors)
+            {
+                d.WriteLine(s.ToString());
+            }
+
         }
     }
 }

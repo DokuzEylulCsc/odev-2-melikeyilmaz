@@ -15,13 +15,13 @@ namespace MelikeYilmazOdev2
     {
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent();  //Fakültemizin ismini atadık.
             deu.Name = "Dokuz Eylül Üniversitesi";
         }
 
-        University deu = new University();
+        University deu = new University(); //Universite objemizi oluşturduk.
 
-        private void btnFakulteKaydet_Click(object sender, EventArgs e)
+        private void btnFakulteKaydet_Click(object sender, EventArgs e) //Fakülte Kaydetme Butonu
         {
             listBoxFakulteler.DataSource = null;
 
@@ -32,14 +32,14 @@ namespace MelikeYilmazOdev2
             textBoxFakulte.Text = "";
         }
 
-        private void btnBolumEkle_Click(object sender, EventArgs e)
+        private void btnBolumEkle_Click(object sender, EventArgs e) //Bölüm ekleme butonu.
         {
             listBoxBolumler.DataSource = null;
 
             if (listBoxFakulteler.SelectedItem != null)
             {
                 var fac = listBoxFakulteler.SelectedItem as Faculty;
-                
+                fac.Bolum_Ekle(textBoxBolum.Text);
 
                 //fac.Departments.Add(new Department()
                 //{
@@ -67,29 +67,25 @@ namespace MelikeYilmazOdev2
 
         private void listBoxFakulteler_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //listBoxBolumler.DataSource = null;
-            //var fac = listBoxFakulteler.SelectedItem as Faculty;
-            //listBoxBolumler.DataSource = fac.Departments;
+            listBoxBolumler.DataSource = null;
+            var fac = listBoxFakulteler.SelectedItem as Faculty;
+            listBoxBolumler.DataSource = fac.Departments;
         }
 
-        private void btnDersEkle_Click(object sender, EventArgs e)
-        {
-            
+        private void btnDersEkle_Click(object sender, EventArgs e) //Ders ekleme butonu
+        {           
             listBoxDersler.DataSource = null;
 
-
             if ( listBoxBolumler.SelectedItem!=null)
-            {
-                           
+            {                         
                 var dep = listBoxBolumler.SelectedItem as Department;
-                
+                dep.Ders_Ekle(textBoxDers.Text);
                 //dep.Lectures.Add(new Lecture()
                 //{
                 //    Id = count,
                 //    Name = textBoxDers.Text,               
                 //    DepartmentId = dep.Id
                 //});
-
 
                 listBoxDersler.DataSource = dep.Lectures;
             }
@@ -102,9 +98,21 @@ namespace MelikeYilmazOdev2
 
         }
 
-        
+        private void btnOgrenciEkle_Click(object sender, EventArgs e) //Öğrenci ekleme butonu.
+        {
+
+            listBoxOgrenciler.Items.Add(textBoxadi.Text);
+            listBoxOgrenciler.Items.Add(textBoxsoyadi.Text);
+            listBoxOgrenciler.Items.Add(textBoxno.Text);
+        }
     }
 }
 //http://www.csharpnedir.com/articles/read/?id=766
 //https://social.msdn.microsoft.com/Forums/vstudio/tr-TR/9b4b88a9-962e-4be9-a718-78ec49843a90/null-hatas-systemnullreferenceexception-nesne-bavurusu-bir-nesnenin-rneine-ayarlanmad?forum=csharptr
+//https://www.kodlamamerkezi.com/c-net/csharp-try-catch-finally-bloklari-ile-hata-yakalama/
+//https://www.tutorialsteacher.com/csharp/csharp-list
+//https://docs.microsoft.com/tr-tr/dotnet/api/system.collections.generic.list-1?view=netframework-4.8
+//Damla İpçi'den yardım aldım.
+//http://194.27.66.201/moodle/pluginfile.php/15740/mod_resource/content/2/DesignPatterns.pdf
+//
 
