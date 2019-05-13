@@ -1,0 +1,20 @@
+c:\users\yavuz\documents\visual studio 2017\Projects\MelikeYilmazOdev2\MelikeYilmazOdev2\bin\Debug\MelikeYilmazOdev2.exe.config
+c:\users\yavuz\documents\visual studio 2017\Projects\MelikeYilmazOdev2\MelikeYilmazOdev2\bin\Debug\MelikeYilmazOdev2.exe
+c:\users\yavuz\documents\visual studio 2017\Projects\MelikeYilmazOdev2\MelikeYilmazOdev2\bin\Debug\MelikeYilmazOdev2.pdb
+c:\users\yavuz\documents\visual studio 2017\Projects\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.csprojAssemblyReference.cache
+c:\users\yavuz\documents\visual studio 2017\Projects\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.Form1.resources
+c:\users\yavuz\documents\visual studio 2017\Projects\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.Properties.Resources.resources
+c:\users\yavuz\documents\visual studio 2017\Projects\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.csproj.GenerateResource.cache
+c:\users\yavuz\documents\visual studio 2017\Projects\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.csproj.CoreCompileInputs.cache
+c:\users\yavuz\documents\visual studio 2017\Projects\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.exe
+c:\users\yavuz\documents\visual studio 2017\Projects\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.pdb
+C:\Users\melik\Downloads\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\bin\Debug\MelikeYilmazOdev2.exe.config
+C:\Users\melik\Downloads\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\bin\Debug\MelikeYilmazOdev2.exe
+C:\Users\melik\Downloads\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\bin\Debug\MelikeYilmazOdev2.pdb
+C:\Users\melik\Downloads\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.csprojAssemblyReference.cache
+C:\Users\melik\Downloads\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.Form1.resources
+C:\Users\melik\Downloads\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.Properties.Resources.resources
+C:\Users\melik\Downloads\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.csproj.GenerateResource.cache
+C:\Users\melik\Downloads\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.csproj.CoreCompileInputs.cache
+C:\Users\melik\Downloads\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.exe
+C:\Users\melik\Downloads\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.pdb
