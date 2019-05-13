@@ -84,7 +84,7 @@ namespace MelikeYilmazOdev2.Models
             }
             catch (Exception)  //Hata yakalama.
             {
-                MessageBox.Show("Eklemeye çalıştığınız ders zaten var.");
+                MessageBox.Show("Eklemeye çalıştığınız öğrenci zaten var.");
             }
         }
 
