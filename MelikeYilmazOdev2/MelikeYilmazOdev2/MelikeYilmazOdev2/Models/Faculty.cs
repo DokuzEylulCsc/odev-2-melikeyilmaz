@@ -10,9 +10,9 @@ namespace MelikeYilmazOdev2.Models
 {
     public class Faculty 
     {
-        public Faculty(string fakulteAdi) 
+        public Faculty(string fakulteAdi) //Sınıfımızla aynı adı taşıyan constructor(yapıcı) method.
         {
-            Departments = new List<Department>();
+            Departments = new List<Department>(); //Bölüm listemiz.
             Name = fakulteAdi;
         }
 
@@ -27,34 +27,29 @@ namespace MelikeYilmazOdev2.Models
             return Name;
         }
 
-        public void Bolum_Ekle(string bolum_ad)
+        public void Bolum_Ekle(string bolum_ad) //Fakülteye bölüm ekleme metodumuz.
         {
-
             try
             {
                 Department bolum = new Department(bolum_ad);
                 Departments.Add(bolum);
             }
-            catch (Exception)
+            catch (Exception)//Hata yakalama.
             {
                     MessageBox.Show("Eklemek istediğiniz bölüm zaten mevcut");
             }
         }
-        public void Bolum_Sil(string bolum_ad)
+        public void Bolum_Sil(string bolum_ad) //Fakülteden bölüm silme metodumuz.
         {
-
             try
             {
                 Department bolum = new Department(bolum_ad);
                 Departments.Remove(bolum);
             }
-            catch (Exception)
+            catch (Exception)//Hata yakalama.
             {
                 MessageBox.Show("Sileceğiniz bölüm bulunmadı...");
             }
         }
-
-
-
     }
 }

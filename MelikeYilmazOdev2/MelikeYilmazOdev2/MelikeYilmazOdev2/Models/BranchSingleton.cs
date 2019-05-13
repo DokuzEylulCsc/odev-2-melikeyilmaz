@@ -8,10 +8,10 @@ namespace MelikeYilmazOdev2.Models
 {
     class BranchSingleton
     {
-        public string subeadi;
-        public string Subeler { get { return subeadi; }set { subeadi = value; } }
+        public string subeadi;//field 
+        public string Subeler { get { return subeadi; }set { subeadi = value; } } //encapsulation
 
-        private BranchSingleton()
+        private BranchSingleton()//Sınıfımızla aynı adı taşıyan constructor(yapıcı) method.
         {
 
         }
@@ -28,3 +28,6 @@ namespace MelikeYilmazOdev2.Models
         }
     }
 }
+
+//http://www.csharpnedir.com/articles/read/?id=134
+//https://www.gencayyildiz.com/blog/cta-singleton-design-patternsingleton-tasarim-deseni/

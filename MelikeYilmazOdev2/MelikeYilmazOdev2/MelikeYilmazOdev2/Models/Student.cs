@@ -9,37 +9,37 @@ namespace MelikeYilmazOdev2.Models
     public abstract class Student 
     {
         //public int Id { get; set; }
-        private int ogrenci_id;
-        private string ogrenci_ad;
-        private string ogrenci_soyad;
-        private string ogrenci_bolum;
-        private string ad;
-        private string soyad;
-        private string bolum;
-        private int id;
+        private int ogrenci_id;//field
+        private string ogrenci_ad;//field
+        private string ogrenci_soyad;//field
+        private string ogrenci_bolum;//field
+        private string ad; //field
+        private string soyad; //field
+        private string bolum;//field
+        private int id;//field
 
-        public string Ogrenci_bolum
+        public string Ogrenci_bolum //encapsulation
         {
             get { return ogrenci_bolum; }
             set { ogrenci_bolum = value; }
         }
 
 
-        public string Ogrenci_soyad
+        public string Ogrenci_soyad //encapsulation
         {
             get { return ogrenci_soyad; }
             set { ogrenci_soyad = value; }
         }
 
 
-        public string Ogrenci_ad
+        public string Ogrenci_ad //encapsulation
         {
             get { return ogrenci_ad; }
             set { ogrenci_ad = value; }
         }
 
 
-        public int Ogrenci_id
+        public int Ogrenci_id//encapsulation
         {
             get { return ogrenci_id; }
             set { ogrenci_id = value; }
@@ -53,7 +53,7 @@ namespace MelikeYilmazOdev2.Models
         //    ogrenci_bolum = ogr_bolum;
         //}
 
-        protected Student(string ad, string soyad, string bolum, int id)
+        protected Student(string ad, string soyad, string bolum, int id) //Sınıfımızla aynı adı taşıyan constructor(yapıcı) method.
         {
             this.ad = ad;
             this.soyad = soyad;

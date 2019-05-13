@@ -102,10 +102,9 @@ namespace MelikeYilmazOdev2
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-        }
+        
     }
 }
+//http://www.csharpnedir.com/articles/read/?id=766
+//https://social.msdn.microsoft.com/Forums/vstudio/tr-TR/9b4b88a9-962e-4be9-a718-78ec49843a90/null-hatas-systemnullreferenceexception-nesne-bavurusu-bir-nesnenin-rneine-ayarlanmad?forum=csharptr
 

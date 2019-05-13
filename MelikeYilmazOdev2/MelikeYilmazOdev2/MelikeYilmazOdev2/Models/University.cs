@@ -9,16 +9,16 @@ namespace MelikeYilmazOdev2.Models
 {
     public class University
     {
-        public University()
+        public University() //Sınıfımızla aynı adı taşıyan constructor(yapıcı) method.
         {
-            Faculties = new List<Faculty>();
-            student = new List<Student>();
+            Faculties = new List<Faculty>(); //Fakülte listemiz.
+            student = new List<Student>();  //Öğrenci listemiz
         }
         public string Name { get; set; }
         public List<Faculty> Faculties { get; set; }
         public List<Student> student { get; set; }
 
-        public void FakulteEkle(string FakulteAdi)// Fakulte Ekleme metodu.
+        public void FakulteEkle(string FakulteAdi)// Fakülte Ekleme metodu.
         {
             try
             {
@@ -26,9 +26,9 @@ namespace MelikeYilmazOdev2.Models
                 Faculties.Add(fakulte);
             }
 
-            catch (Exception)
+            catch (Exception) //Hata yakalama.
             {
-                MessageBox.Show("Fakulte Bulunmaktadır");
+                MessageBox.Show("Fakülte Bulunmaktadır");
             }
 
         }

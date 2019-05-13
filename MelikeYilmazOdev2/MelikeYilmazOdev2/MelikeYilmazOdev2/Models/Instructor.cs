@@ -9,31 +9,48 @@ namespace MelikeYilmazOdev2.Models
 {
     class Instructor
     {
-        public int ınstructor_id;
-        public string ınstructor_name;
-        public string ınstructor_lastname;
-        public List<Lecture> Lectures { get; set; }
+        public int ınstructor_id;//field
+        public string ınstructor_name;//field
+        public string ınstructor_lastname;//field
+        private object ad;//field
+        private object soyad;//field
+        private object id;//field
 
-        public int Instructor_id
+        public List<Lecture> Lectures { get; set; } //Öğrenci listemiz.
+
+
+        public int Instructor_id //encapsulation
         {
             get { return ınstructor_id; }
             set { ınstructor_id = value; }
         }
 
-        public string Instructor_name
+        public string Instructor_name //encapsulation
         {
             get { return ınstructor_name; }
             set { ınstructor_name = value; }
         }
-        public string Instructor_lastname
+        public string Instructor_lastname //encapsulation
         {
             get { return ınstructor_lastname; }
             set { ınstructor_lastname = value; }
         }
 
-        public Instructor(int id,string ad,string soyad)
+        public Instructor(int id,string ad,string soyad) //Sınıfımızla aynı adı taşıyan constructor(yapıcı) method.
         {
             Lectures = new List<Lecture>();
+        }
+
+        public Instructor(object ad, object soyad,object id) //Sınıfımızla aynı adı taşıyan constructor(yapıcı) method.
+        {
+            this.ad = ad;
+            this.soyad = soyad;
+            this.id = id;
+        }
+
+        public Instructor(int id) //Sınıfımızla aynı adı taşıyan constructor(yapıcı) method.
+        {
+            this.id = id;
         }
 
         public void Ogretim_Elemanına_Ders_Ekle(int instroctur_id, string instroctur_adi, string instroctur_soyad)
@@ -60,20 +77,15 @@ namespace MelikeYilmazOdev2.Models
             }
             catch (Exception)
             {
-                MessageBox.Show("Silmeye çalıştığınız yok.");
+                MessageBox.Show("Silmeye çalıştığınız ders bulunmamaktadır.");
             }
         }
-
-        void SubeSingleton()
-        {
+            
+          void SubeSingleton()
+          {
             BranchSingleton nesnesube = BranchSingleton.Yolla();
             nesnesube.subeadi = "20";
 
-        }
-        
-        
-        
-        
-
+          }
     }
 }
