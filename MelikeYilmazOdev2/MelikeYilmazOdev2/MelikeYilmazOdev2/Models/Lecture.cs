@@ -8,7 +8,7 @@ namespace MelikeYilmazOdev2.Models
 {
     public class Lecture 
     {
-        //public Lecture()
+        //public Lecture()...
         //{
 
         //}
