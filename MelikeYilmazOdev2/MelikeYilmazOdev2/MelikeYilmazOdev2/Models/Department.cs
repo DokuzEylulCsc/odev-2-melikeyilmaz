@@ -14,6 +14,7 @@ namespace MelikeYilmazOdev2.Models
         {
             Lectures = new List<Lecture>();
             Students = new List<Student>();
+            Name = bolum_ad;
         }
         public string Name { get; set; }
         public int FacultyId { get; set; }
@@ -54,7 +55,19 @@ namespace MelikeYilmazOdev2.Models
             }
         }
 
+        public void Ogrenci_Ekle(string ad,string soyad,string bolum,int id)
+        {
 
+            try
+            {
+                //Student ogrenci = new Student(ad,soyad,bolum,id);
+                //Students.Add(ogrenci);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Eklemeye çalıştığınız ders zaten var.");
+            }
+        }
 
     }
 }

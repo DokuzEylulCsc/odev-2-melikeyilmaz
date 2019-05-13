@@ -18,3 +18,13 @@ C:\Users\melik\Downloads\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\o
 C:\Users\melik\Downloads\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.csproj.CoreCompileInputs.cache
 C:\Users\melik\Downloads\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.exe
 C:\Users\melik\Downloads\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.pdb
+C:\Users\melik\OneDrive\Belgeler\GitHub\odev-2-melikeyilmaz\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.csprojAssemblyReference.cache
+C:\Users\melik\OneDrive\Belgeler\GitHub\odev-2-melikeyilmaz\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.Form1.resources
+C:\Users\melik\OneDrive\Belgeler\GitHub\odev-2-melikeyilmaz\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.Properties.Resources.resources
+C:\Users\melik\OneDrive\Belgeler\GitHub\odev-2-melikeyilmaz\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.csproj.GenerateResource.cache
+C:\Users\melik\OneDrive\Belgeler\GitHub\odev-2-melikeyilmaz\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.csproj.CoreCompileInputs.cache
+C:\Users\melik\OneDrive\Belgeler\GitHub\odev-2-melikeyilmaz\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.exe
+C:\Users\melik\OneDrive\Belgeler\GitHub\odev-2-melikeyilmaz\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\obj\Debug\MelikeYilmazOdev2.pdb
+C:\Users\melik\OneDrive\Belgeler\GitHub\odev-2-melikeyilmaz\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\bin\Debug\MelikeYilmazOdev2.exe.config
+C:\Users\melik\OneDrive\Belgeler\GitHub\odev-2-melikeyilmaz\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\bin\Debug\MelikeYilmazOdev2.exe
+C:\Users\melik\OneDrive\Belgeler\GitHub\odev-2-melikeyilmaz\MelikeYilmazOdev2\MelikeYilmazOdev2\MelikeYilmazOdev2\bin\Debug\MelikeYilmazOdev2.pdb

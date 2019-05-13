@@ -45,9 +45,20 @@
             this.label5 = new System.Windows.Forms.Label();
             this.textBoxDers = new System.Windows.Forms.TextBox();
             this.listBoxDersler = new System.Windows.Forms.ListBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.groupBoxFakulte.SuspendLayout();
             this.groupBoxBolumEkle.SuspendLayout();
             this.groupBoxDersEkle.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBoxFakulte
@@ -178,7 +189,7 @@
             // 
             // btnDersEkle
             // 
-            this.btnDersEkle.Location = new System.Drawing.Point(150, 90);
+            this.btnDersEkle.Location = new System.Drawing.Point(150, 123);
             this.btnDersEkle.Name = "btnDersEkle";
             this.btnDersEkle.Size = new System.Drawing.Size(85, 30);
             this.btnDersEkle.TabIndex = 2;
@@ -197,7 +208,7 @@
             // 
             // textBoxDers
             // 
-            this.textBoxDers.Location = new System.Drawing.Point(6, 58);
+            this.textBoxDers.Location = new System.Drawing.Point(6, 91);
             this.textBoxDers.Name = "textBoxDers";
             this.textBoxDers.Size = new System.Drawing.Size(229, 26);
             this.textBoxDers.TabIndex = 0;
@@ -211,11 +222,110 @@
             this.listBoxDersler.Size = new System.Drawing.Size(165, 164);
             this.listBoxDersler.TabIndex = 7;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "YuksekLisans",
+            "Doktora",
+            "Lisans"});
+            this.comboBox1.Location = new System.Drawing.Point(10, 58);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(231, 28);
+            this.comboBox1.TabIndex = 8;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.label9);
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Location = new System.Drawing.Point(258, 215);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(241, 245);
+            this.groupBox1.TabIndex = 9;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Ogrenci Ekle";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(156, 206);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(85, 30);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Kaydet";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(6, 35);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(111, 20);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Ogrenci Turleri";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(82, 101);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(147, 26);
+            this.textBox1.TabIndex = 9;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(82, 133);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(147, 26);
+            this.textBox2.TabIndex = 10;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(82, 165);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(147, 26);
+            this.textBox3.TabIndex = 11;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(9, 101);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(32, 20);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "Adi";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(9, 165);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(29, 20);
+            this.label8.TabIndex = 13;
+            this.label8.Text = "No";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(6, 133);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(57, 20);
+            this.label9.TabIndex = 14;
+            this.label9.Text = "Soyadi";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(918, 463);
+            this.ClientSize = new System.Drawing.Size(918, 537);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.listBoxDersler);
             this.Controls.Add(this.groupBoxDersEkle);
             this.Controls.Add(this.groupBoxBolumEkle);
@@ -234,6 +344,8 @@
             this.groupBoxBolumEkle.PerformLayout();
             this.groupBoxDersEkle.ResumeLayout(false);
             this.groupBoxDersEkle.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -258,6 +370,16 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBoxDers;
         private System.Windows.Forms.ListBox listBoxDersler;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label6;
     }
 }
 

@@ -13,7 +13,9 @@ namespace MelikeYilmazOdev2.Models
         public Faculty(string fakulteAdi) 
         {
             Departments = new List<Department>();
+            Name = fakulteAdi;
         }
+
         public string Name { get; set; }
         
         

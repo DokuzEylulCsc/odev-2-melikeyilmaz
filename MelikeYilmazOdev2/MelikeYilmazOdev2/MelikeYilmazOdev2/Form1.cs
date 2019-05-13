@@ -16,7 +16,6 @@ namespace MelikeYilmazOdev2
         public Form1()
         {
             InitializeComponent();
-            deu.Id = 1;
             deu.Name = "Dokuz Eylül Üniversitesi";
         }
 
@@ -26,15 +25,8 @@ namespace MelikeYilmazOdev2
         {
             listBoxFakulteler.DataSource = null;
 
-            int count = deu.Faculties.Count;
-            count++;
-            deu.Faculties.Add(new Faculty()
-            {
-                Name = textBoxFakulte.Text,
-                Id = count,
-                UniversityId = deu.Id
-            });
-
+            deu.FakulteEkle(textBoxFakulte.Text);
+            
             listBoxFakulteler.DataSource = deu.Faculties;
 
             textBoxFakulte.Text = "";
@@ -47,14 +39,14 @@ namespace MelikeYilmazOdev2
             if (listBoxFakulteler.SelectedItem != null)
             {
                 var fac = listBoxFakulteler.SelectedItem as Faculty;
-                int count = fac.Departments.Count;
-                count++;
-                fac.Departments.Add(new Department()
-                {
-                    Id = count,
-                    Name = textBoxBolum.Text,
-                    FacultyId = fac.Id
-                });
+                
+
+                //fac.Departments.Add(new Department()
+                //{
+                //    Id = count,
+                //    Name = textBoxBolum.Text,
+                //    FacultyId = fac.Id
+                //});
 
                 listBoxBolumler.DataSource = fac.Departments;
             }
@@ -90,15 +82,13 @@ namespace MelikeYilmazOdev2
             {
                            
                 var dep = listBoxBolumler.SelectedItem as Department;
-                int count = dep.Lectures.Count;
-                count++;
-               
-                dep.Lectures.Add(new Lecture()
-                {
-                    Id = count,
-                    Name = textBoxDers.Text,               
-                    DepartmentId = dep.Id
-                });
+                
+                //dep.Lectures.Add(new Lecture()
+                //{
+                //    Id = count,
+                //    Name = textBoxDers.Text,               
+                //    DepartmentId = dep.Id
+                //});
 
 
                 listBoxDersler.DataSource = dep.Lectures;
@@ -110,6 +100,11 @@ namespace MelikeYilmazOdev2
 
             textBoxBolum.Text = "";
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

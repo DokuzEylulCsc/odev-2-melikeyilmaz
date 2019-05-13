@@ -41,8 +41,8 @@ namespace MelikeYilmazOdev2.Models
 
             try
             {
-                Lecture ders = new Lecture(instroctur_id, instroctur_adi, instroctur_soyad);
-                Lectures.Add(ders);
+                //Lecture ders = new Lecture(instroctur_id, instroctur_adi, instroctur_soyad);
+                //Lectures.Add(ders);
             }
             catch (Exception)
             {
@@ -55,13 +55,25 @@ namespace MelikeYilmazOdev2.Models
 
             try
             {
-                Lecture ders = new Lecture(instroctur_id, instroctur_adi, instroctur_soyad);
-                Lectures.Remove(ders);
+                //Lecture ders = new Lecture(instroctur_id, instroctur_adi, instroctur_soyad);
+                //Lectures.Remove(ders);
             }
             catch (Exception)
             {
                 MessageBox.Show("Silmeye çalıştığınız yok.");
             }
         }
+
+        void SubeSingleton()
+        {
+            BranchSingleton nesnesube = BranchSingleton.Yolla();
+            nesnesube.subeadi = "20";
+
+        }
+        
+        
+        
+        
+
     }
 }

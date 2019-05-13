@@ -8,7 +8,7 @@ namespace MelikeYilmazOdev2.Models
 {
     public class Lecture 
     {
-        //public Lecture()...
+        //public Lecture()
         //{
 
         //}
@@ -33,15 +33,15 @@ namespace MelikeYilmazOdev2.Models
         }
 
 
-        public Lecture(int ders_Id,string ders_adi, string instroctur_soyad)
+        public Lecture(int ders_Id,string ders_adi)
         {
-            ders_id = ders_Id;
-            ders_ad = ders_adi;
+            Ders_id = ders_Id;
+            Ders_ad = ders_adi;
         }
 
         public Lecture(string ders_adi)
         {
-            this.ders_adi = ders_adi;
+            
         }
     }
 }
